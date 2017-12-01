@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<field id="update_fields" name="更新字段列表" type="multiCheck">
+    <rules>
+        <rule>
+            <rule name="requiredRule" value="true">
+            </rule>
+            <rule name="requiredRule" value="true2">
+            </rule>
+        </rule>
+    </rules>
+    <options>
+        <option displayname="商品描述" value="description">
+        </option>
+    </options>
+    <default-values>
+        <default-value>
+            description
+        </default-value>
+    </default-values>
+</field>

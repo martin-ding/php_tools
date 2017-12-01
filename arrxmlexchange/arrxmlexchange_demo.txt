@@ -1,0 +1,61 @@
+Array
+(
+    [field] => Array
+        (
+            [@attributes] => Array
+                (
+                    [id] => update_fields
+                    [name] => 更新字段列表
+                    [type] => multiCheck
+                )
+
+            [rules] => Array
+                (
+                    [rule] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [@attributes] => Array
+                                        (
+                                            [name] => requiredRule
+                                            [value] => true
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [@attributes] => Array
+                                        (
+                                            [name] => requiredRule
+                                            [value] => true2
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [options] => Array
+                (
+                    [option] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [displayName] => 商品描述
+                                    [value] => description
+                                )
+
+                        )
+
+                )
+
+            [default-values] => Array
+                (
+                    [default-value] => description
+                )
+
+        )
+
+)
